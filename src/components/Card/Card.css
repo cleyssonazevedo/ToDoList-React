@@ -1,0 +1,21 @@
+.panel-custom {
+    border-color: #B67328 !important;
+}
+
+.panel-custom > .panel-heading {
+    background-color: #CF812E;
+    border-color: #B67328;
+    color: #fff;
+}
+
+.panel-custom > .panel-collapse {
+    opacity: 0.8;
+}
+
+.panel-custom > .panel-collapse > .list-group .checkbox-inline {
+    font-size: 1.1em;
+}
+
+.panel-success > .panel-collapse > .list-group .checkbox-inline {
+    font-size: 1.1em;
+}

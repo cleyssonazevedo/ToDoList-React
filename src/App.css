@@ -1,0 +1,66 @@
+html, body, .container-full {
+    background-color: #f7f4eb;
+}
+
+#cards {
+    margin-top: 20px;
+    height: 100%;
+    background-color: transparent;
+}
+
+/* Modal */
+.modal-open .modal-dialog .modal-header {
+    background-color: #B67328 !important;
+    color: white;
+}
+
+.modal-open .modal-dialog .modal-header span {
+    color: white;
+}
+
+.modal-open .modal-dialog .modal-body, .modal-footer {
+    background-color: #f7f4eb;
+}
+
+/* Floating Button */
+@keyframes FicarVisivel {
+    0% { opacity: 0.2 }
+    25% { opacity: 0.4 }
+    50% { opacity: 0.6 }
+    75% { opacity: 0.8 }
+    100% { opacity: 1 }
+}
+
+.btn-floating {
+    height: 60px;
+    width: 60px;
+    border-radius: 100% !important;
+    background-color: #B67328 !important;
+    opacity: 0.2;
+    
+    border: none !important;
+    outline: none !important;
+
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}
+
+.btn-floating .glyphicon {
+    color: white;
+}
+
+.btn-floating:hover, .btn-floating:focus, .btn-floating.focus {
+    animation: FicarVisivel 0.6s linear alternate;
+    opacity: 1;
+}
+
+/* Well Custom */
+.well-nothing {
+    margin-top: 25px;
+    font-size: 2em;
+    font-weight: bold;
+    border: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}

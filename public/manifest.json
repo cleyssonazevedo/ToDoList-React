@@ -1,0 +1,45 @@
+{
+  "short_name": "Lista de Tarefas",
+  "name": "Lista de Tarefas",
+  "icons": [
+    {
+      "src": "icons/list_16px.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/list_24px.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/list_32px.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/list_64px.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/list_128px.png",
+      "sizes": "18x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/list_256px.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/list_512px.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
